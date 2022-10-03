@@ -253,12 +253,16 @@ no info yet
 
 The next links helped me a lot to finish this task.
 
-- *Design Patterns for Beginners With Java Examples:* https://dzone.com/articles/design-patterns-for-beginners-with-java-examples
+- *Spring boot change port:* https://www.baeldung.com/spring-boot-change-port
 
-- *Patrones de diseño - Betta Tech, Youtube Tutorial:* https://www.youtube.com/watch?v=3qTmBcxGlWk&list=PLJkcleqxxobUJlz1Cm8WYd-F_kckkDvc8&index=1
+- *Spring Tools 4: Getting Started in Eclipse:* https://www.youtube.com/watch?v=mST9AG4Yn_A
 
-- *Design Patterns - Geekific, Youtuble Tutorial:* https://www.youtube.com/watch?v=mE3qTp1TEbg&list=PLlsmxlJgn1HJpa28yHzkBmUY-Ty71ZUGc
+- *Java Microservices: Code Examples, Tutorials and More:* https://dzone.com/articles/java-microservices-code-examples-tutorials-and-more
 
-- *Singleton Java:* https://es.wikipedia.org/wiki/Singleton#Java
+- *Web Server failed to Start:* https://stackoverflow.com/questions/56499928/web-server-failed-to-start-port-8080-was-already-in-use-spring-boot-microservi
 
-- *List of Country Calling Codes:* https://en.wikipedia.org/wiki/List_of_country_calling_codes
+- *Cómo Crear un API REST en Spring Boot:* https://www.youtube.com/watch?v=NSf32d26OL4&t=4s
+
+- *@RequestParam, Spring MVC y sus opciones:* https://www.arquitecturajava.com/requestparam-spring-mvc-y-sus-opciones/
+
+- *Spring Optional Path Variables:* https://www.baeldung.com/spring-optional-path-variables
