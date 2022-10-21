@@ -21,53 +21,28 @@ Aquest exercici és un primer contacte amb Spring i Maven.
 Accedeix a la pàgina ->https://start.spring.io/, i genera un projecte Spring boot amb les següents característiques:
 
 
-PROJECT (gestor de dependències)
+- PROJECT (gestor de dependències): Maven.
 
-Maven.
+- LANGUAGE: Java.
 
-LANGUAGE
+- SPRING BOOT: La darrera versió estable.
 
-Java.
+- PROJECT METADATA: 
+	- Group: cat.itacademy.barcelonactiva.cognoms.nom.s04.t01.n01
 
-SPRING BOOT
+	- Artifact: S04T01N01GognomsNom
 
-La darrera versió estable.
+	- Name: S04T01N01GognomsNom
 
-PROJECT METADATA
+	- Description: S04T01N01GognomsNom
 
-Group
+	- Package name: cat.itacademy.barcelonactiva.cognoms.nom.s04.t01.n01
 
-cat.itacademy.barcelonactiva.cognoms.nom.s04.t01.n01
+- PACKAGIN: Jar
 
-Artifact
+- JAVA: Mínim versió 11 
 
-S04T01N01GognomsNom
-
-Name
-
-S04T01N01GognomsNom
-
-Description
-
-S04T01N01GognomsNom
-
-Package name
-
-cat.itacademy.barcelonactiva.cognoms.nom.s04.t01.n01
-
-PACKAGIN
-
-Jar
-
-JAVA
-
-Mínim versió 11 
-
-Dependències:
-
-Spring Boot DevTools
-
-Spring Web
+- Dependències: Spring Boot DevTools, Spring Web
 
 
 Importa’l a Eclipse amb l’opció File > Import > Existing Maven Project.
@@ -77,15 +52,13 @@ A l’arxiu application.properties, configura la variable server.port amb el val
 Convertirem aquesta aplicació en una API REST:
 Depenent del package principal, crea un altre subpackage anomenat Controllers, i dins seu, afegeix la classe HelloWorldController.
 
-
 Haurà de tenir dos mètodes:
 String saluda
 String saluda2
 
 Aquests dos mètodes rebran un paràmetre String anomenat nom, i retornaran la frase:
 
-“Hola, “ + nom + “. Estàs executant un projecte Maven”.
-
+"Hola, " + nom + ". Estàs executant un projecte Maven".
 
 El primer mètode respondrà a una petició GET, i haurà de ser configurat per a rebre el paràmetre com un RequestParam. El paràmetre "nom" tindrà el valor per defecte “UNKNOWN”.
 
@@ -94,22 +67,12 @@ Haurà de respondre a:
 http://localhost:9000/HelloWorld
 http://localhost:9000/HelloWorld?nom=El meu nom
 
- 
-
 El segon mètode respondrà a una petició GET, i haurà de ser configurat per a rebre el paràmetre com una PathVariable. El paràmetre "nom" serà opcional.
 
 Haurà de respondre a:
 
 http://localhost:9000/HelloWorld2
 http://localhost:9000/HelloWorld2/el meu nom	
-
-### info
-- La classe Undo implementa el patró Singleton. 
-- Per veure l'historial de comandes s'ha d'escriure `--history`.
-- Per desfer l'última comanda s'ha d'escriure `--undo`.
-- `--history` i `--undo` no s'afegeixen en la llista de comandes aplicades. La resta de cadenes si.
-- Per sortir s'ha d'escriure `--exit`.
-
 
 ### info
 
@@ -122,53 +85,29 @@ Veuràs que aquest nivell és quasi idèntic al nivell 1, però fent servir Grad
 
 Accedeix a la pàgina ->https://start.spring.io/, i genera un projecte Spring boot amb les següents característiques:
 
-PROJECT (gestor de dependències)
+- PROJECT (gestor de dependències): Gradle.
 
-Gradle.
+- LANGUAGE: Java.
 
-LANGUAGE
+- SPRING BOOT: La darrera versió estable.
 
-Java.
+- PROJECT METADATA: 
 
-SPRING BOOT
+	- Group cat.itacademy.barcelonactiva.cognoms.nom.s04.t01.n02
 
-La darrera versió estable.
+	- Artifact: S04T01N02GognomsNom
 
-PROJECT METADATA
+	- Name: S04T01N02CognomsNom
 
-Group
+	- Description: S04T01N02GognomsNom
 
-cat.itacademy.barcelonactiva.cognoms.nom.s04.t01.n02
+	- Package name: cat.itacademy.barcelonactiva.cognoms.nom.s04.t01.n02
 
-Artifact
+- PACKAGIN: Jar
 
-S04T01N02GognomsNom
+- JAVA: Mínim versió 11 
 
-Name
-
-S04T01N02CognomsNom
-
-Description
-
-S04T01N02GognomsNom
-
-Package name
-
-cat.itacademy.barcelonactiva.cognoms.nom.s04.t01.n02
-
-PACKAGIN
-
-Jar
-
-JAVA
-
-Mínim versió 11 
-
-Dependències:
-
-Spring Boot DevTools
-
-Spring Web
+- Dependències: Spring Boot DevTools, Spring Web
 
 
 Importa’l a Eclipse amb l’opció File > Import > Existing Gradle Project.
