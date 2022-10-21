@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
 
 	@GetMapping(value ="/HelloWorld")
-	public String saluda(@RequestParam String nom) {
+	public String saluda(@RequestParam(required = false) String nom) {
 		return "Hola, " + nom + ". Estàs executant un projecte Maven";
 	}
 	
