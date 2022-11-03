@@ -204,3 +204,5 @@ The next links helped me a lot to finish this task.
 - *Spring Optional Path Variables:* https://www.baeldung.com/spring-optional-path-variables
 
 - *Spring @RequestParam vs @PathVariable Annotations:* https://www.baeldung.com/spring-requestparam-vs-pathvariable
+
+- *Usar entornos (development, staging, production) y variables en Postman:* https://www.youtube.com/watch?v=9I9U5-WUrDo
