@@ -161,14 +161,11 @@ Crea dos entorns:
 
 -          Projecte Gradle
 
- 
-
 Ambdós entorns tindran dues variables:
 
 -          Servidor, que en els dos casos tindrà el valor http://localhost
 
 -          Port, que en el cas del projecte Maven tindrà el valor 9000, i en el cas del projecte Gradle, 9001.
-
  
 
 Que has d’entregar? (4 arxius):
@@ -205,3 +202,5 @@ The next links helped me a lot to finish this task.
 - *@RequestParam, Spring MVC y sus opciones:* https://www.arquitecturajava.com/requestparam-spring-mvc-y-sus-opciones/
 
 - *Spring Optional Path Variables:* https://www.baeldung.com/spring-optional-path-variables
+
+- *Spring @RequestParam vs @PathVariable Annotations:* https://www.baeldung.com/spring-requestparam-vs-pathvariable
